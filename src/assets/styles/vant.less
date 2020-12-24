@@ -1,0 +1,186 @@
+@import './vars.less';
+
+/* toast 弹窗样式 */
+.van-toast {
+  font-size: 28px;
+  font-weight: bold;
+  color: @white;
+  background-color: @gray;
+}
+
+.van-toast--text {
+  padding: 30px 60px;
+}
+
+/* 表单报错样式 */
+.van-field__error-message {
+  color: @red;
+}
+
+/* 吸顶背景色 */
+.van-sticky--fixed {
+  background: @white;
+}
+
+/* 表单框样式调整 */
+.van-field {
+  padding: 24px 0;
+
+  .van-field__label {
+    width: 230px;
+    font-size: 26px;
+    color: @gray;
+  }
+
+  .van-field__body {
+    input {
+      font-size: 26px;
+      color: @black;
+
+      &::placeholder {
+        color: @placeholderGray;
+      }
+    }
+
+    textarea {
+      &::placeholder {
+        color: @placeholderGray;
+      }
+    }
+  }
+
+  .van-cell__right-icon {
+    margin-right: 30px;
+    color: @gray;
+  }
+}
+
+.van-cell {
+  &:not(:last-child) {
+    &::after {
+      left: 0;
+      border-color: @gapGray;
+    }
+  }
+}
+
+.van-cell--required::before {
+  top: 24px;
+  left: -12px;
+  color: @red;
+}
+
+/* picker 按钮颜色 */
+.van-picker__confirm {
+  color: @mainBlue;
+}
+
+.van-picker__cancel {
+  color: @gray;
+}
+
+/* picker 每项颜色 */
+.van-picker-column__item {
+  color: @black;
+}
+
+/* 上传证件 */
+.van-uploader__wrapper {
+  width: 100%;
+  height: 100%;
+  border: 1px solid @mainBlue;
+
+  .van-uploader__upload {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: @white;
+    border: none;
+  }
+
+  .van-uploader__upload-icon {
+    font-size: 60px;
+    color: @mainBlue;
+  }
+
+  .van-uploader__upload-text {
+    margin-top: 50px;
+    font-size: 28px;
+    color: @mainBlue;
+  }
+
+  .van-uploader__preview {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .van-uploader__preview-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .van-uploader__mask {
+    border-radius: 0;
+  }
+
+  .van-uploader__input-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .van-uploader__preview-delete {
+    top: 0;
+    right: 0;
+  }
+}
+
+.van-cell__title {
+  color: @black;
+}
+
+/* dialog 按钮 */
+.van-dialog__confirm {
+  color: @mainBlue;
+}
+
+.van-dialog__cancel {
+  color: @gray;
+}
+
+.van-radio__label {
+  font-size: 26px;
+  color: @black;
+}
+
+.van-popup__close-icon {
+  color: @gray;
+}
+
+/* radio大小 */
+.van-radio__icon--round {
+  font-size: 30px;
+}
+
+.van-radio {
+  &:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+
+.van-skeleton {
+  padding: 0;
+}
+
+.van-skeleton__content {
+  padding-top: 0 !important;
+}
+
+.van-skeleton__title {
+  height: 20px;
+}
+
+.van-skeleton__row {
+  height: 20px;
+}

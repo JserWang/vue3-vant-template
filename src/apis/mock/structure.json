@@ -1,0 +1,14 @@
+[
+  {
+    "url": "/user/info",
+    "responseBody": {
+      "code": "number",
+      "msg": "string",
+      "data": {
+        "name": "string",
+        "phone": "string",
+        "age": "number"
+      }
+    }
+  }
+]

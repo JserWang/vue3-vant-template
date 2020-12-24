@@ -1,0 +1,41 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
+  "explorer.openEditors.visible": 0,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.fontWeight": "bold",
+  "editor.renameOnType": true,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+
+  "workbench.tree.renderIndentGuides": "none",
+  "vetur.validation.template": false,
+  "prettier.requireConfig": true,
+  "vetur.format.enable": false,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": ["Unmount", "stylelint", "vant", "vite"],
+  "window.zoomLevel": 0,
+  "path-autocomplete.extensionOnImport": true,
+  "workbench.panel.defaultLocation": "right",
+  "git.ignoreMissingGitWarning": true
+}
