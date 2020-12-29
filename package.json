@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "font": "node scripts/font/index.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -19,6 +20,8 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^7.0.0",
     "autoprefixer": "^9.8.6",
+    "chalk": "^4.1.0",
+    "crypto": "^1.0.1",
     "eslint": "^7.16.0",
     "eslint-plugin-prettier": "^3.2.0",
     "eslint-plugin-vue": "^7.4.0",
@@ -31,6 +34,7 @@
     "stylelint-order": "^4.1.0",
     "typescript": "^4.1.2",
     "vite": "^1.0.0-rc.13",
-    "vite-plugin-faker": "1.1.2"
+    "vite-plugin-faker": "1.1.2",
+    "vite-plugin-html": "^1.0.0-beta.2"
   }
 }

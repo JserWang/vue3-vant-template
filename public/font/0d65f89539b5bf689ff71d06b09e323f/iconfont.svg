@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="check-o" unicode="&#58881;" d="M846.178 690.018a39.385 39.385 0 0 0 63.33-46.552l-2.953-3.978-423.7-506.21a39.385 39.385 0 0 0-53.287-6.617l-3.702 3.033L152.97 382.779a39.385 39.385 0 0 0 49.743 60.889l3.82-3.151L449.024 215.66999999999996l397.154 474.388z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
