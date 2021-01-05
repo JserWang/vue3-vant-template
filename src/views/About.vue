@@ -9,8 +9,8 @@
 </template>
 <script lang="ts">
   import { defineComponent, ref, Ref } from 'vue';
-  import useService from '@/apis/services/user';
-  import { MUser } from '@/apis/model';
+  import useService from '/@/apis/services/user';
+  import { MUser } from '/@/apis/model';
 
   export default defineComponent({
     setup() {

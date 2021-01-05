@@ -1,8 +1,8 @@
-import { ContentTypeEnum, ResCode } from '@/enums/request';
-import type { AxiosOptions, ResponseBody } from '@/utils/request/types';
 import type { AxiosRequestConfig, AxiosResponse } from 'axios';
 import axios from 'axios';
 import { Toast } from 'vant';
+import { ContentTypeEnum, ResCode } from '/@/enums/request';
+import type { AxiosOptions, ResponseBody } from '/@/utils/request/types';
 
 export const customOptions: AxiosOptions = {
   // 请求超时时间

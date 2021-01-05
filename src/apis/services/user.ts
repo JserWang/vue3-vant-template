@@ -1,5 +1,5 @@
-import { MUser } from '@/apis/model';
-import Request from '@/utils/request';
+import { MUser } from '/@/apis/model';
+import Request from '/@/utils/request';
 
 enum UserApi {
   info = '/user/info',

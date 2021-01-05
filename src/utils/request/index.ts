@@ -1,3 +1,9 @@
+import type { AxiosResponse } from 'axios';
+import axios from 'axios';
+import Canceler from './canceler';
+import useLoading from './loading';
+import { AxiosOptions, ResponseBody } from './types';
+import { genUniqueReqKey } from './utils';
 import {
   customOptions,
   requestInterceptor,
@@ -5,14 +11,8 @@ import {
   responseCallback,
   responseInterceptor,
   responseInterceptorCatch,
-} from '@/config/request';
-import { MethodEnum } from '@/enums/request';
-import type { AxiosResponse } from 'axios';
-import axios from 'axios';
-import Canceler from './canceler';
-import useLoading from './loading';
-import { AxiosOptions, ResponseBody } from './types';
-import { genUniqueReqKey } from './utils';
+} from '/@/config/request';
+import { MethodEnum } from '/@/enums/request';
 
 const appendUrl = (url: string, str: string): string =>
   `${url}${url.indexOf('?') > -1 ? '&' : '?'}${str}`;

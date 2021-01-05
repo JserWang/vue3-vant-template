@@ -1,3 +1,4 @@
+import vue from '@vitejs/plugin-vue';
 import type { Plugin } from 'vite';
 import { vitePluginFaker } from 'vite-plugin-faker';
 import VitePluginHtml from 'vite-plugin-html';
@@ -8,6 +9,8 @@ const USE_MOCK = env.VITE_MOCK === '1';
 
 export default (): Plugin[] => {
   const plugins = [] as Plugin[];
+
+  plugins.push(vue());
 
   if (USE_MOCK) {
     plugins.push(

@@ -11,8 +11,8 @@
 
 <script lang="ts">
   import { defineComponent, Ref, ref } from 'vue';
-  import { ScrollView, TScrollView } from '@/components/ScrollView';
-  import { VIcon } from '@/components/VIcon';
+  import { ScrollView, TScrollView } from '/@/components/ScrollView';
+  import { VIcon } from '/@/components/VIcon';
 
   export default defineComponent({
     components: {

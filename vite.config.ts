@@ -1,19 +1,23 @@
 import { resolve } from 'path';
-import type { UserConfig } from 'vite';
-import alias from './src/build/alias';
+import { defineConfig } from 'vite';
 import plugins from './src/build/plugins';
 
-const config: UserConfig = {
-  resolvers: [{ alias }],
+export default defineConfig({
+  alias: [
+    {
+      find: '/@',
+      replacement: resolve(__dirname, './src'),
+    },
+  ],
   plugins: plugins(),
-  cssPreprocessOptions: {
-    less: {
-      javascriptEnabled: true,
-      modifyVars: {
-        hack: `true; @import "${resolve(__dirname, './src/assets/styles/params.less')}";`,
+  css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+        modifyVars: {
+          hack: `true; @import "${resolve(__dirname, './src/assets/styles/params.less')}";`,
+        },
       },
     },
   },
-};
-
-export default config;
+});

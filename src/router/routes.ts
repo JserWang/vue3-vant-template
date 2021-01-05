@@ -1,7 +1,7 @@
-import VPage from '@/components/VPage/index.vue';
-import About from '@/views/About.vue';
-import Home from '@/views/Home.vue';
 import { RouteRecordRaw } from 'vue-router';
+import VPage from '/@/components/VPage/index.vue';
+import About from '/@/views/About.vue';
+import Home from '/@/views/Home.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {

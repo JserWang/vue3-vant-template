@@ -1,5 +1,5 @@
-import Canceler from '@/utils/request/canceler';
 import type { Router } from 'vue-router';
+import Canceler from '/@/utils/request/canceler';
 
 export default (router: Router) => {
   router.beforeEach(() => {

@@ -2,7 +2,7 @@
  * Local为本地缓存，Session为会话缓存
  *
  * 使用方法：
- * import { Local, Session } from '@/utils/storage'
+ * import { Local, Session } from '/@/utils/storage'
  *
  * Local.set<string>('my_key', my_value)
  * Local.set<string>('my_key', my_value, 30)

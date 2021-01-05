@@ -1,4 +1,4 @@
-import { Session } from '@/utils/storage';
+import { Session } from '/@/utils/storage';
 
 const PAGE_HISTORY_KEY = 'PAGE_HISTORY';
 

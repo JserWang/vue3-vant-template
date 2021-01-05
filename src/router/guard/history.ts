@@ -1,5 +1,5 @@
-import { history, HOME_PATH } from '@/utils/history';
 import type { Router } from 'vue-router';
+import { history, HOME_PATH } from '/@/utils/history';
 
 export default (router: Router) => {
   router.beforeEach((to, from, next) => {

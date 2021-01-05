@@ -11,7 +11,7 @@
 ```
 
 ```typescript
-import { ScrollView, TScrollView } from '@/components/ScrollView';
+import { ScrollView, TScrollView } from '/@/components/ScrollView';
 
 export default defineComponent({
   components: { ScrollView },

@@ -1,6 +1,6 @@
-import { history } from '@/utils/history';
 import { ref } from '@vue/reactivity';
 import { onBeforeRouteUpdate } from 'vue-router';
+import { history } from '/@/utils/history';
 
 export default () => {
   const transitionName = ref('slide-left');
