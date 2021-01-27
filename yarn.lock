@@ -467,10 +467,10 @@
     "@typescript-eslint/types" "4.11.0"
     eslint-visitor-keys "^2.0.0"
 
-"@vant/icons@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.npm.taobao.org/@vant/icons/download/@vant/icons-1.5.0.tgz"
-  integrity sha1-znii8FWhpAmRKbtsRNVFhPN0Dic=
+"@vant/icons@^1.5.1":
+  version "1.5.2"
+  resolved "https://registry.npm.taobao.org/@vant/icons/download/@vant/icons-1.5.2.tgz#3f3ea353a0eacd38c113757bd31836489facb10b"
+  integrity sha1-Pz6jU6DqzTjBE3V70xg2SJ+ssQs=
 
 "@vant/lazyload@^1.0.2":
   version "1.0.2"
@@ -484,10 +484,10 @@
   dependencies:
     "@popperjs/core" "^2.5.4"
 
-"@vant/use@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/@vant/use/download/@vant/use-1.0.0.tgz"
-  integrity sha1-aNsirxEwzPhngU/sXsjE962U820=
+"@vant/use@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.npm.taobao.org/@vant/use/download/@vant/use-1.0.2.tgz#75486aedf3539382baa922c77eeb8a2e2394a948"
+  integrity sha1-dUhq7fNTk4K6qSLHfuuKLiOUqUg=
   dependencies:
     "@babel/runtime" "7.x"
 
@@ -559,7 +559,7 @@
   dependencies:
     vue-eslint-parser "^7.0.0"
 
-"@vue/reactivity@3.0.5":
+"@vue/reactivity@3.0.5", "@vue/reactivity@^3.0.5":
   version "3.0.5"
   resolved "https://registry.npm.taobao.org/@vue/reactivity/download/@vue/reactivity-3.0.5.tgz#e3789e4d523d845f9ae0b4d770e2b45594742fd2"
   integrity sha1-43ieTVI9hF+a4LTXcOK0VZR0L9I=
@@ -1152,10 +1152,10 @@ error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-esbuild@^0.8.26:
-  version "0.8.29"
-  resolved "https://registry.npm.taobao.org/esbuild/download/esbuild-0.8.29.tgz"
-  integrity sha1-zCD7dS4JBaNUbWiuG+WPm5cETDk=
+esbuild@^0.8.34:
+  version "0.8.36"
+  resolved "https://registry.npm.taobao.org/esbuild/download/esbuild-0.8.36.tgz?cache=0&sync_timestamp=1611659885019&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fesbuild%2Fdownload%2Fesbuild-0.8.36.tgz#f5b7c61473721c7d53ffe7c88708e25f3b6182f3"
+  integrity sha1-9bfGFHNyHH1T/+fIhwjiXzthgvM=
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -1337,11 +1337,6 @@ extend@^3.0.0:
   resolved "https://registry.npm.taobao.org/extend/download/extend-3.0.2.tgz"
   integrity sha1-+LETa0Bx+9jrFAr/hYsQGewpFfo=
 
-faker@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npm.taobao.org/faker/download/faker-5.1.0.tgz"
-  integrity sha1-4Q+h3sRQJVGu4Ot3Fhen57lGkug=
-
 fast-deep-equal@^3.1.1:
   version "3.1.3"
   resolved "https://registry.npm.taobao.org/fast-deep-equal/download/fast-deep-equal-3.1.3.tgz"
@@ -1480,7 +1475,7 @@ glob-parent@^5.0.0, glob-parent@^5.1.0:
   dependencies:
     is-glob "^4.0.1"
 
-glob@^7.1.3, glob@^7.1.6:
+glob@^7.1.3:
   version "7.1.6"
   resolved "https://registry.npm.taobao.org/glob/download/glob-7.1.6.tgz"
   integrity sha1-FB8zuBp8JJLhJVlDB0gMRmeSeKY=
@@ -1914,11 +1909,6 @@ lodash.camelcase@^4.3.0:
   resolved "https://registry.npm.taobao.org/lodash.camelcase/download/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
   integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
 
-lodash.isequal@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.npm.taobao.org/lodash.isequal/download/lodash.isequal-4.5.0.tgz"
-  integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
-
 lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20:
   version "4.17.20"
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.20.tgz?cache=0&sync_timestamp=1597336097104&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.20.tgz"
@@ -2136,11 +2126,6 @@ node-releases@^1.1.67:
   version "1.1.67"
   resolved "https://registry.npm.taobao.org/node-releases/download/node-releases-1.1.67.tgz?cache=0&sync_timestamp=1605581362340&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnode-releases%2Fdownload%2Fnode-releases-1.1.67.tgz"
   integrity sha1-KOv8zNC6pqrY6NTY/ky8Sa4jnBI=
-
-node-watch@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.npm.taobao.org/node-watch/download/node-watch-0.7.1.tgz?cache=0&sync_timestamp=1607246759378&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnode-watch%2Fdownload%2Fnode-watch-0.7.1.tgz"
-  integrity sha1-DKqmpoM7DVM0h/lTxSpseHdpunw=
 
 normalize-package-data@^2.5.0:
   version "2.5.0"
@@ -2626,7 +2611,7 @@ resolve-from@^5.0.0:
   resolved "https://registry.npm.taobao.org/resolve-from/download/resolve-from-5.0.0.tgz"
   integrity sha1-w1IlhD3493bfIcV1V7wIfp39/Gk=
 
-resolve@^1.10.0, resolve@^1.17.0, resolve@^1.3.2:
+resolve@^1.10.0, resolve@^1.17.0, resolve@^1.19.0, resolve@^1.3.2:
   version "1.19.0"
   resolved "https://registry.npm.taobao.org/resolve/download/resolve-1.19.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fresolve%2Fdownload%2Fresolve-1.19.0.tgz"
   integrity sha1-GvW/YwQJc0oGfK4pMYqsf6KaJnw=
@@ -2993,6 +2978,10 @@ trough@^1.0.0:
   resolved "https://registry.npm.taobao.org/trough/download/trough-1.0.5.tgz"
   integrity sha1-uLY5zvrX0LsqvTfUM/+Ck++l9AY=
 
+"ts-mock-generator@link:../vite-plugin-faker/ ../ts-mock-generator":
+  version "0.0.0"
+  uid ""
+
 tslib@^1.10.0, tslib@^1.8.1:
   version "1.14.1"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.14.1.tgz?cache=0&sync_timestamp=1602286730817&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.14.1.tgz"
@@ -3039,15 +3028,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.0.3:
+typescript@^4.0.3, typescript@^4.1.3:
   version "4.1.3"
   resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.1.3.tgz?cache=0&sync_timestamp=1609743614635&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftypescript%2Fdownload%2Ftypescript-4.1.3.tgz#519d582bd94cba0cf8934c7d8e8467e473f53bb7"
   integrity sha1-UZ1YK9lMugz4k0x9joRn5HP1O7c=
-
-typescript@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.1.2.tgz"
-  integrity sha1-Y2nvIlFv5eEDBKrlpcSGLbVTgOk=
 
 unified@^9.1.0:
   version "9.2.0"
@@ -3110,16 +3094,16 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vant@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/vant/download/vant-3.0.0.tgz?cache=0&sync_timestamp=1608692284310&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvant%2Fdownload%2Fvant-3.0.0.tgz"
-  integrity sha1-8SaMYMy45r5i8NAJSAWX24VfP3c=
+vant@^3.0.2:
+  version "3.0.5"
+  resolved "https://registry.npm.taobao.org/vant/download/vant-3.0.5.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvant%2Fdownload%2Fvant-3.0.5.tgz#48105dbab04820b62b9352544d9f7205dd290f91"
+  integrity sha1-SBBdurBIILYrk1JUTZ9yBd0pD5E=
   dependencies:
     "@babel/runtime" "7.x"
-    "@vant/icons" "^1.5.0"
+    "@vant/icons" "^1.5.1"
     "@vant/lazyload" "^1.0.2"
     "@vant/popperjs" "^1.0.2"
-    "@vant/use" "^1.0.0"
+    "@vant/use" "^1.0.2"
 
 vfile-message@^2.0.0:
   version "2.0.4"
@@ -3153,13 +3137,14 @@ vite-plugin-html@^2.0.0-beta.1:
     html-minifier-terser "^5.1.1"
     lodash "^4.17.20"
 
-vite@^2.0.0-beta.4:
-  version "2.0.0-beta.4"
-  resolved "https://registry.npm.taobao.org/vite/download/vite-2.0.0-beta.4.tgz?cache=0&sync_timestamp=1609742246715&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvite%2Fdownload%2Fvite-2.0.0-beta.4.tgz"
-  integrity sha1-bqjgiuXmtRBUjQLsdw00BGYirvc=
+vite@^2.0.0-beta.50:
+  version "2.0.0-beta.50"
+  resolved "https://registry.npm.taobao.org/vite/download/vite-2.0.0-beta.50.tgz#04e66d009470ca90ab8a4a43687e899b670a0f25"
+  integrity sha1-BOZtAJRwypCrikpDaH6Jm2cKDyU=
   dependencies:
-    esbuild "^0.8.26"
+    esbuild "^0.8.34"
     postcss "^8.2.1"
+    resolve "^1.19.0"
     rollup "^2.35.1"
   optionalDependencies:
     fsevents "~2.1.2"
